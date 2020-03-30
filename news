@@ -1,0 +1,30 @@
+<!--Made with HTML Site by @dante_nl-->
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>dante_nl is using Github! | dante_nl News Article</title>
+<style>
+
+body { 
+background: white; 
+font-family: system-ui;
+color: black
+} 
+
+/* Light Mode */
+@media (prefers-color-scheme: dark) {
+
+body { 
+background-color: #1E1E1E; 
+color: #fff 
+} /* Dark Mode */
+}
+</style>
+</head>
+<body>
+<h2>dante_nl News uses Github!</h2>
+<p>dante_nl News now uses Github, so you can always stay up-to-date! Please note that this requires internet!</p>
+</body>
+</html>

@@ -1,4 +1,4 @@
-    @media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
     	body {
 			background: #333;
         	font-family: -apple-system, BlinkMacSystemFont, sans-serif;
@@ -35,8 +35,15 @@
         }
         a {
   			color: #1E5A99;
-  			text-decoration: none;
 		}
+        
+        .box {            
+            display: inline-block;
+    		padding: 12px 24px;
+    		border: 1px solid #1E5A99;
+    		border-radius: 8px;
+            text-decoration: none;
+        }
     }
     
     @media (prefers-color-scheme: light) {
@@ -76,15 +83,21 @@
             text-decoration: none;
 		}
 		.button:hover {
-    		border: 1px solid #4dd6ff;
+    		border: 1px solid #50dfff;
     		background: #50dfff;
     		color: #F5F5F5;
 		}
         a {
   			color: #43baff;
-  			text-decoration: bold;
 		}
+        
+        .box {
+  			display: inline-block;
+    		padding: 12px 24px;
+    		border: 1px solid #43baff;
+    		border-radius: 8px;
+            text-decoration: none;
+        }
         }
 
-            
-      
+    
